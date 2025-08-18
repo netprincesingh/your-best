@@ -1,7 +1,7 @@
 import { createStackNavigator } from "@react-navigation/stack";
 import AppNavigator from "./AppNavigator.js";
-import QuizQuestions from "../screens/QuizQuestions.tsx";
-import ResultScreen from "../screens/ResultScreen.tsx";
+import QuizQuestions from "../screens/quiz/QuizQuestions.tsx";
+import ResultScreen from "../screens/quiz/ResultScreen.tsx";
 
 const Stack = createStackNavigator();
 

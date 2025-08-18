@@ -2,8 +2,8 @@ import * as React from "react";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons";
 
-import Quiz from "../screens/Quiz.tsx";
-import Planner from "../screens/Planner.tsx";
+import Quiz from "../screens/quiz/Quiz.tsx";
+import Planner from "../screens/planner/Planner.tsx";
 import Mock from "../screens/Mock.tsx";
 import Track from "../screens/Track.tsx";
 

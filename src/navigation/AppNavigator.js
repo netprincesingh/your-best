@@ -5,7 +5,7 @@ import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityI
 import Quiz from "../screens/quiz/Quiz.tsx";
 import Planner from "../screens/planner/Planner.tsx";
 import Mock from "../screens/Mock.tsx";
-import Track from "../screens/Track.tsx";
+import Track from "../screens/track/Track.tsx";
 
 
 const Tab = createBottomTabNavigator();

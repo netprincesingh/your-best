@@ -4,6 +4,7 @@ import { View,Text } from "react-native";
 
 const Mock = ()=>{
     return(
+        
         <View>
             <Text>
                 Mock

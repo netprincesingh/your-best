@@ -1,0 +1,75 @@
+{
+  "students": [
+    { "id": 1, "name": "Priya Sharma" },
+    { "id": 2, "name": "Rohan Gupta" },
+    { "id": 3, "name": "Ananya Reddy" }
+  ],
+  "performance": [
+    {
+      "id": 101,
+      "studentId": 1,
+      "subject": "Mathematics",
+      "scores": [
+        { "month": "April", "score": 75 },
+        { "month": "May", "score": 80 },
+        { "month": "June", "score": 82 },
+        { "month": "July", "score": 88 }
+      ]
+    },
+    {
+      "id": 102,
+      "studentId": 1,
+      "subject": "Science",
+      "scores": [
+        { "month": "April", "score": 85 },
+        { "month": "May", "score": 84 },
+        { "month": "June", "score": 90 },
+        { "month": "July", "score": 91 }
+      ]
+    },
+    {
+      "id": 201,
+      "studentId": 2,
+      "subject": "Mathematics",
+      "scores": [
+        { "month": "April", "score": 60 },
+        { "month": "May", "score": 65 },
+        { "month": "June", "score": 75 },
+        { "month": "July", "score": 72 }
+      ]
+    },
+    {
+      "id": 202,
+      "studentId": 2,
+      "subject": "Science",
+      "scores": [
+        { "month": "April", "score": 78 },
+        { "month": "May", "score": 80 },
+        { "month": "June", "score": 79 },
+        { "month": "July", "score": 85 }
+      ]
+    },
+    {
+      "id": 301,
+      "studentId": 3,
+      "subject": "Mathematics",
+      "scores": [
+        { "month": "April", "score": 90 },
+        { "month": "May", "score": 92 },
+        { "month": "June", "score": 95 },
+        { "month": "July", "score": 94 }
+      ]
+    },
+    {
+      "id": 302,
+      "studentId": 3,
+      "subject": "Science",
+      "scores": [
+        { "month": "April", "score": 88 },
+        { "month": "May", "score": 90 },
+        { "month": "June", "score": 89 },
+        { "month": "July", "score": 92 }
+      ]
+    }
+  ]
+}

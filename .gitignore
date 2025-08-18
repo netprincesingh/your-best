@@ -73,3 +73,14 @@ yarn-error.log
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+
+# Keystore files
+*.keystore
+*.jks
+
+# Properties files containing credentials
+gradle.properties
+local.properties
+
+

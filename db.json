@@ -1,7 +1,7 @@
 {
   "students": [
     { "id": 1, "name": "Priya Sharma" },
-    { "id": 2, "name": "Rohan Gupta" },
+    { "id": 2, "name": "Prince Singh" },
     { "id": 3, "name": "Ananya Reddy" }
   ],
   "performance": [
@@ -71,5 +71,85 @@
         { "month": "July", "score": 92 }
       ]
     }
+  ],
+  "candidates": [
+    { "id": 1, "name": "Aarav Singh", "appliedFor": "Software Engineer" },
+    { "id": 2, "name": "Prince Singh", "appliedFor": "Product Manager" },
+    { "id": 3, "name": "Vikram Desai", "appliedFor": "Data Scientist" }
+  ],
+  "interviews": [
+    {
+      "id": 101,
+      "candidateId": 1,
+      "round": "Technical Screen",
+      "interviewer": "Priya Sharma",
+      "date": "2025-08-12",
+      "feedback": "Aarav has a strong grasp of data structures. He solved the coding challenge efficiently but struggled to explain system design concepts at a high level. Recommended for the next round with a focus on architecture.",
+      "scores": {
+        "problemSolving": 9,
+        "coding": 8,
+        "communication": 7,
+        "systemDesign": 5
+      }
+    },
+    {
+      "id": 102,
+      "candidateId": 1,
+      "round": "Managerial Round",
+      "interviewer": "Rohan Gupta",
+      "date": "2025-08-18",
+      "feedback": "Excellent team player attitude. He showed great enthusiasm for the project and asked insightful questions. His architectural knowledge improved from the last round. A strong hire.",
+      "scores": {
+        "problemSolving": 8,
+        "systemDesign": 7,
+        "teamFit": 9,
+        "communication": 8
+      }
+    },
+    {
+      "id": 201,
+      "candidateId": 2,
+      "round": "Product Sense",
+      "interviewer": "Ananya Reddy",
+      "date": "2025-08-14",
+      "feedback": "Prince has a good understanding of user needs and product lifecycle. She was able to break down a complex problem into actionable user stories. Could be more data-driven in her approach.",
+      "scores": {
+        "productVision": 8,
+        "userEmpathy": 9,
+        "communication": 9,
+        "dataAnalysis": 6
+      }
+    },
+    {
+      "id": 301,
+      "candidateId": 3,
+      "round": "Technical Screen",
+      "interviewer": "Meera Iyer",
+      "date": "2025-08-15",
+      "feedback": "Vikram's knowledge of machine learning algorithms is impressive. His Python skills are solid, though he could optimize his code for better performance. A promising candidate.",
+      "scores": {
+        "algorithms": 9,
+        "python": 7,
+        "statistics": 8,
+        "communication": 7
+      }
+    },
+    {
+      "id": 302,
+      "candidateId": 3,
+      "round": "Case Study Round",
+      "interviewer": "Sameer Khan",
+      "date": "2025-08-19",
+      "feedback": "Presented a well-structured solution to the case study. His data visualization skills are top-notch. He successfully identified key insights from the dataset. We are moving forward with an offer.",
+       "scores": {
+        "problemSolving": 9,
+        "dataVisualization": 10,
+        "businessAcumen": 8,
+        "presentation": 9
+      }
+    }
   ]
+
+
+  
 }

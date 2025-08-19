@@ -14,13 +14,20 @@ const ScheduleScreen = () => {
   const [date, setDate] = useState(new Date());
   const [showPicker, setShowPicker] = useState(false);
 
+
+
+
   const onChange = (event, selectedDate) => {
+
     const currentDate = selectedDate || date;
     setShowPicker(Platform.OS === 'ios');
     setDate(currentDate);
+
   };
 
   const scheduleDailyReminder = async () => {
+
+
     try {
       // Request permissions for iOS
       await notifee.requestPermission();
@@ -37,6 +44,7 @@ const ScheduleScreen = () => {
         timestamp: date.getTime(), // The selected time
         repeatFrequency: RepeatFrequency.DAILY, // Repeat every day
       };
+
 
       // Create a trigger notification
       await notifee.createTriggerNotification(
@@ -57,6 +65,7 @@ const ScheduleScreen = () => {
         'Reminder Set!',
         `A daily reminder is scheduled for ${date.toLocaleTimeString()}.`,
       );
+
     } catch (error) {
       console.error('Error scheduling notification: ', error);
       Alert.alert('Error', 'Could not set the reminder.');
@@ -93,7 +102,7 @@ const ScheduleScreen = () => {
         Selected Time: {date.toLocaleTimeString()}
       </Text>
 
-      <TouchableOpacity style={styles.button} onPress={() => scheduleDailyReminder} >
+      <TouchableOpacity style={styles.button} onPress={ scheduleDailyReminder} >
         <Text style={styles.buttonText}>Set Daily Reminder</Text>
       </TouchableOpacity>
 
@@ -105,6 +114,9 @@ const ScheduleScreen = () => {
 
 
 };
+
+
+
 
 const styles = StyleSheet.create({
   container: {
